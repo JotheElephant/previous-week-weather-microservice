@@ -5,6 +5,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const config = require('./config.js');
 const rp = require('request-promise');
+var port = process.env.PORT || 8080;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -57,5 +58,5 @@ app.get('/prev-week', (req, res) => {
 
 });
 
-
-app.listen(process.env.PORT);
+console.log("Listening on port: ", port);
+app.listen(port);
