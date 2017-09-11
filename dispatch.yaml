@@ -1,0 +1,3 @@
+dispatch:
+  - url: '*/prev-week'
+    module: prev-week
