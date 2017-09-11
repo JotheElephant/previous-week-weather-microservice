@@ -1,6 +1,6 @@
 # previous-week-weather-microservice
 
-Provides weather conditions from the previous week.  All you need to provide are geographical coordinates and time in unix format.
+Provides weather conditions from the previous week with a given time and location.  All you need to provide are geographical coordinates and time in unix format.
 
 ## Requirements
 
